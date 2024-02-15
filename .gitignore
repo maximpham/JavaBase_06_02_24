@@ -30,4 +30,6 @@ bin/
 
 .idea
 out
-*.iml
+*.imlgit st
+
+*mp3
