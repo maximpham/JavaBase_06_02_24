@@ -7,7 +7,7 @@ public class RandomNum {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        int num = 0;
+        int num;
 
 
         while (true) {
@@ -23,7 +23,6 @@ public class RandomNum {
                     System.out.println(random + " - WIN!!");
                     break;
                 } else {
-
                     System.out.println(random + " - LOSE");
                 }
             } else {
