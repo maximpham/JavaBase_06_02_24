@@ -24,7 +24,7 @@ public class Burger {
         this(bun, doubleMeat ? meat + ", подвійне м'ясо" : meat, cheese, veggies);
     }
 
-    private void displayIngredients() {
+    public void displayIngredients() {
         System.out.println("Склад бургера:");
         System.out.println("Булочка: " + bun);
         System.out.println("М'ясо: " + meat);
